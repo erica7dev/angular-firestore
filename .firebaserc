@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "pokedex-angular-d6144"
+    "default": "pokedex-angular-c9d43"
+  },
+  "targets": {
+    "pokedex-angular-c9d43": {
+      "hosting": {
+        "pokedex-firestore": [
+          "pokedex-angular-c9d43"
+        ]
+      }
+    }
   }
 }

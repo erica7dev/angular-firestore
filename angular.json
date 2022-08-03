@@ -102,6 +102,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "pokedex-firestore:build:production",
+            "firebaseProject": "pokedex-angular-c9d43",
+            "firebaseHostingSite": "pokedex-angular-c9d43"
+          }
         }
       }
     }
